@@ -4,19 +4,22 @@
   "description": "search for books",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests"
+    "test": "mocha tests",
+    "start": "node index"
   },
   "author": "balakrishnan",
   "license": "ISC",
   "dependencies": {
-    "trie-search": "^1.2.11",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "mocha": "^7.1.0",
     "node-cache": "^5.1.0",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.0",
+    "trie-search": "^1.2.11"
   },
   "devDependencies": {
-    "assert": "^2.0.0"
+    "assert": "^2.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^7.1.0",
+    "chai-http": "4.2.1"
   }
 }
