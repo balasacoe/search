@@ -1,0 +1,11 @@
+{
+  "name": "search",
+  "version": "1.0.0",
+  "description": "search for books",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm tests"
+  },
+  "author": "balakrishnan",
+  "license": "ISC"
+}
