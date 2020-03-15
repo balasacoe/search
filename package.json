@@ -4,8 +4,14 @@
   "description": "search for books",
   "main": "index.js",
   "scripts": {
-    "test": "npm tests"
+    "test": "mocha tests"
   },
   "author": "balakrishnan",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "trie-search": "^1.2.11"
+  },
+  "devDependencies": {
+    "assert": "^2.0.0"
+  }
 }
